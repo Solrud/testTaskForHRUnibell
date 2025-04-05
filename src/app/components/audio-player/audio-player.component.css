@@ -1,0 +1,28 @@
+:host{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.player-container{
+  width: 30rem;
+  border: 1px solid black;
+  padding: 0.6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.audio-player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-audio{
+  margin: 0.5rem 2rem;
+}
+
+.input-range{
+  width: 80%;
+}

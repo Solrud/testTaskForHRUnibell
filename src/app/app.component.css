@@ -1,0 +1,8 @@
+.main-container{
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 3rem auto !important;
+}
+.audio-player{
+  margin-top: 3rem;
+}

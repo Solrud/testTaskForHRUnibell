@@ -1,0 +1,11 @@
+<div class="player-container">
+  <span class="text-audio">{{ audioFileName || "Выберите аудио из таблицы" }}</span>
+  <div class="audio-player" *ngIf="audioFileName">
+    <button mat-fab color="primary"
+            (click)="onClickTogglePlay()">
+      <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+    </button>
+  </div>
+</div>
+
+<audio #audioPlayer></audio>
